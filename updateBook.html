@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="*" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  <meta charset="UTF-8" />
+  <title>Second Treasures Bookstore </title>
+  
+</head>
+<body>
+
+  <script src="src/ctrl/initialize.js"></script>
+  <script src="src/model/Book.js"></script>
+  <script src="src/view/updateBook.js"></script>
+  <script>
+   window.addEventListener("load", pl.view.updateBook.setupUserInterface);
+  </script>
+  
+  <h1>Update a book record</h1>
+<form id="Book">
+    <p>
+      <label>Select book: 
+        <select name="selectBook"><option value=""> --- </option></select>
+      </label>
+    </p>
+    <p><label>ISBN: <input name="isbn" readonly="readonly" /></label></p>
+    <p>
+      <label>Title : 
+      <input name="title" /></label></p>
+    <p>
+      <p>
+      <label>Author : 
+      <input name="author" /></label></p>
+    <p>
+      <p>
+      <label>genre : 
+      <input name="genre" /></label></p>
+    <p>
+      <label>Price: 
+      <input name="Price" /></label></p>
+    <p><button type="button" name="commit">Save Changes</button></p>
+  </form>
+  <nav><a href="index.html">Back to main menu</a></nav>
+</body>
+</html>

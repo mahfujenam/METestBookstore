@@ -1,0 +1,55 @@
+body {
+	background-color: #003366;
+}
+
+body {
+	color: #DEDECA;
+}
+
+td, th {
+	color: #99CCCC;
+}
+
+h1 {
+	color: #FFFF33;
+}
+
+h2 {
+	color: #FFFF66;
+}
+
+h3, h4 {
+	color: #FFFFCC;
+}
+
+h5, h6 {
+	color: #6699CC;
+}
+
+a {
+	color: #9999cc;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	width:30%;
+}
+
+input {
+    width: 30%;
+}
+
+label {
+    width: 30%;
+}
+select {
+    width: 30%;
+}

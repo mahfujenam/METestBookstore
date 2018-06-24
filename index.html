@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" vocab="http://schema.org/" typeof="WebApplication">
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<meta charset="UTF-8" />
+  <title>Second Treasures Bookstore </title>
+  <meta property="browserRequirements" content="requires HTML5 support" />
+  <meta property="storageRequirements" content="Local Storage of browser" />
+  <meta property="countriesSupported" content="en" />
+  <meta property="applicationCategory" content="Data management" />
+  <meta property="creator" content="Mahfuj Enam" /> <!-- should be a Person object instead of text -->
+  <link href="*" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+
+  <script src="src/ctrl/initialize.js"></script>
+  <script src="src/model/Book.js"></script>
+  
+  <hgroup>
+   <h1 align="center">Second Treasures Bookstore </h1>
+   <h2 align="center">A small used-book store in Outback, Canada</h2>
+   </hgroup>
+  
+    <menu>
+     
+        <p align="center"><a href="listBooks.html">
+          <button type="button" class="button">List all books</button>
+        </a></p>
+     
+      
+        <p align="center"><a href="createBook.html">
+          <button type="button" class="button">Add a new book</button>
+        </a></p>
+     
+      
+        <p align="center"><a href="updateBook.html">
+          <button type="button" class="button">Update a book</button>
+        </a></p>
+      
+      
+        <p align="center"><a href="deleteBook.html">
+          <button type="button" class="button">Delete a book</button>
+        </a></p>
+      
+      
+        <p align="center">
+          <button type="button" class="button" onClick="Book.clearData()">Clear database</button>
+        </p>
+      
+      <p align="center"><em>Design By Mahfuj Enam</em></p>
+    </menu>
+
+    </footer>
+
+</body>
